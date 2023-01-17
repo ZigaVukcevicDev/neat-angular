@@ -11,7 +11,7 @@ Table of contents
 ```TypeScript
 export class ProductComponent {
   // TBD
-  // TODO: try with nested objects
+  // TODO: try with nested object
 }
 ```
 
