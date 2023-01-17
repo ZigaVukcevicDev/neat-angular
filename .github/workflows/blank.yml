@@ -25,7 +25,7 @@ jobs:
         uses: philips-software/post-to-medium-action@v0.4.1
         with:
           integration_token: "${{ secrets.INTEGRATION_TOKEN }}"
-          file: "path/to/story.md"
+          file: "README.md"
           content_format: "markdown"
           notify_followers: "false"
           tags: "test,tag"
