@@ -53,8 +53,16 @@ TBD
 In Angular, when you change any of your models, the framework detects the changes and immediately updates the relevant views. This ensures the underlying views are always in sync.
 
 
+![Image](https://cdn-images-1.medium.com/max/1600/1*yKJIjqyGm5GhwOG61YVQxQ.png)
 
-
+<!--
+```typescript
+ngOnInit() {
+  // ...
+  Plotly.newPlot('chart', data); // uses mousemove and mouseup event listeners
+}
+```
+-->
 
 
 
@@ -67,10 +75,12 @@ Performance patterns
 - Identification: Often coming from 3rd party libraries with triggers request animation frame, setTimeout etc.
 - Resolution: Move initialisations outside of Angular zone
 
+
+https://carbon.now.sh/?bg=rgba%252874%252C144%252C226%252C1%2529&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%2525&si=false&es=2x&wm=false
+
 Before
 
 ```typescript
-
 ngOnInit() {
   // ...
   Plotly.newPlot('chart', data); // uses mousemove and mouseup event listeners
