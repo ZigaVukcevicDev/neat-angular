@@ -1,13 +1,15 @@
 # Neat Angular
 
-Table of contents
+_A short journey towards knowledge_
+
+**Table of contents**
 
 - [Angular change detection](#angular-change-detection)
 - [Using getters and setters with Input decorator](#using-getters-and-setters-with-input-decorator)
 
-## Angular change detection
+# Angular change detection
 
-### What is change detection?
+## What is change detection?
 
 The key technique of change detection is to execute checks for two states
 - the current state and
@@ -55,6 +57,8 @@ In Angular, when you change any of your models, the framework detects the change
 
 ![Image](https://cdn-images-1.medium.com/max/1600/1*yKJIjqyGm5GhwOG61YVQxQ.png)
 
+![Image](https://snappify.com/view/dae3fb74-4c60-451e-9818-2aa2a7d243b4)
+
 <!--
 ```typescript
 ngOnInit() {
@@ -75,8 +79,6 @@ Performance patterns
 - Identification: Often coming from 3rd party libraries with triggers request animation frame, setTimeout etc.
 - Resolution: Move initialisations outside of Angular zone
 
-
-https://carbon.now.sh/?bg=rgba%252874%252C144%252C226%252C1%2529&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%2525&si=false&es=2x&wm=false
 
 Before
 
